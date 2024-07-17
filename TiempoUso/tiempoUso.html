@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiempo uso</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styleTU.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h1><b>Progreso de nick</b></h1>
+            <div class="line"></div>
+        </div>
+        <div class="back">
+            <a href="#"><img src="imagenesTU/image.png" alt="" class="back-img"></a>
+        </div>
+    </header>
+    <main>
+        <h1 class="title-time"><b>Tiempo de uso</b></h1>
+        <h2 class="time-num"><b>2 horas 30 minutos</b></h2>
+        <h3>Esta semana</h3>
+
+        <!-- grafica -->
+        <div class="grafic">
+            <canvas id="myChart"></canvas>
+        </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+            <script src="script.js"></script>
+        <!-- grafica -->
+
+        <div class="config-time">
+            <div class="line2"></div>
+        <a class="config" href="#">
+            <div class="config-block">
+                <p class="p1">Temporizador de la aplicación</p>
+                <p class="p2">2 horas 30 minutos</p>
+                <img src="imagenesTU/image copy 2.png" alt="" class="clock">
+            </div> 
+        </a>
+        </div>
+    </main>
+</body>
+</html>

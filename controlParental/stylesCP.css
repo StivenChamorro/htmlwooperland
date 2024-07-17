@@ -1,0 +1,119 @@
+.CP{
+    position: absolute;
+    width: 254px;
+    height: 36px;
+    left: calc(50% - 254px/2);
+    top: 50px;
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #EF476F;
+}
+
+.back{
+
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 1800px;
+    top: 65px;
+
+    background: #EF476F;
+    border-radius: 50%;
+
+}
+
+.back-img{
+
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    left: 5px;
+    top: 5px;
+
+}
+
+.options1{
+
+    position: absolute;
+    width: 90%;
+    height: 78.86px;
+    left: 90px;
+    top: 139px;
+
+    background: #EF476F;
+    border-radius: 10px;
+
+}
+
+h1{
+
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+
+}
+
+.options1 > h1{
+
+    position: absolute;
+    width: 105px;
+    height: 36px;
+    left: 50px;
+    top: 0px;
+
+}
+
+.options2{
+
+    position: absolute;
+    width: 90%;
+    height: 76.32px;
+    left: 90px;
+    top: 247.11px;
+
+    background: #EF476F;
+    border-radius: 10px;
+
+}
+
+.options2 > h1{
+
+    position: absolute;
+    width: 368px;
+    height: 36px;
+    left: 50px;
+    top: 0px;
+
+}
+
+.options3{
+
+    position: absolute;
+    width: 90%;
+    height: 76.32px;
+    left: 90px;
+    top: 352.68px;
+
+    background: #EF476F;
+    border-radius: 10px;
+
+}
+
+.options3 > h1{
+
+position: absolute;
+width: 216px;
+height: 36px;
+left: 50px;
+top: 0px;
+
+}
